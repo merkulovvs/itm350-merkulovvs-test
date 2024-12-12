@@ -1,6 +1,6 @@
 ami                         = "ami-0e252be8f4dfa2c0d"
 cluster_name		        = "BBTerra"
-container_image             = "merkulovvs/itm350-merkulovvs-bb:sha-ea8c72d"
+container_image             = "merkulovvs/itm350-merkulovvs-bb:sha-2690d1b"
 container_port              = 8080
 instance_name_prefix	    = "cit262-node"
 instance_type               = "t2.micro"
