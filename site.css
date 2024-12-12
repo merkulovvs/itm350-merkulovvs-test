@@ -2,14 +2,14 @@
 @font-face {
     font-family: 'Geomanist Book';
     src: url(fonts/geomanist/hinted-Geomanist-Book.eot);
-    src: url(fonts/geomanist/hinted-Geomanist-Book.eot?#iefix) format('embedded-opentype'),url(../fonts/geomanist/hinted-Geomanist-Book.woff2) format('woff2'),url(../fonts/geomanist/hinted-Geomanist-Book.woff) format('woff'),url(../fonts/geomanist/hinted-Geomanist-Book.ttf) format('truetype'),url(../fonts/geomanist/hinted-Geomanist-Book.svg#Geomanist-Book) format('svg');
+    src: url(fonts/geomanist/hinted-Geomanist-Book.eot?#iefix) format('embedded-opentype'), url(../fonts/geomanist/hinted-Geomanist-Book.woff2) format('woff2'), url(../fonts/geomanist/hinted-Geomanist-Book.woff) format('woff'), url(../fonts/geomanist/hinted-Geomanist-Book.ttf) format('truetype'), url(../fonts/geomanist/hinted-Geomanist-Book.svg#Geomanist-Book) format('svg');
     font-weight: 400;
     font-style: normal
 }
 
 body {
     padding-bottom: 20px;
-    background-color: rgb(98, 41, 145);
+    background-color: rgb(0, 119, 255);
     color: #FFF;
     font-size: 20px;
 }
@@ -43,8 +43,8 @@ textarea {
     background-color: #380a66;
 }
 
-h1, h2 {
+h1,
+h2 {
     font-family: 'Geomanist Book';
     text-align: center;
 }
-
