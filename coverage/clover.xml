@@ -1,11 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1727985652774" clover="3.2.0">
-  <project timestamp="1727985652774" name="All files">
-    <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1" elements="3" coveredelements="3" complexity="0" loc="2" ncloc="2" packages="1" files="1" classes="1"/>
-    <file name="sum.js" path="C:\Users\Victor\Documents\Repos\itm350-merkulovvs-test\src\sum.js">
-      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <line num="2" count="1" type="stmt"/>
-      <line num="5" count="1" type="stmt"/>
-    </file>
+<coverage generated="1728157160345" clover="3.2.0">
+  <project timestamp="1728157160345" name="All files">
+    <metrics statements="32" coveredstatements="24" conditionals="0" coveredconditionals="0" methods="18" coveredmethods="15" elements="50" coveredelements="39" complexity="0" loc="32" ncloc="32" packages="2" files="13" classes="13"/>
+    <package name="backend">
+      <metrics statements="8" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
+      <file name="api.js" path="C:\Users\carso\OneDrive\Documents\repos\ITM-350-Carson-Test\backend\api.js">
+        <metrics statements="5" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+      </file>
+      <file name="events.js" path="C:\Users\carso\OneDrive\Documents\repos\ITM-350-Carson-Test\backend\events.js">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+      </file>
+      <file name="index.js" path="C:\Users\carso\OneDrive\Documents\repos\ITM-350-Carson-Test\backend\index.js">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="2" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src">
+      <metrics statements="24" coveredstatements="24" conditionals="0" coveredconditionals="0" methods="15" coveredmethods="15"/>
+      <file name="1passfail.js" path="C:\Users\carso\OneDrive\Documents\repos\ITM-350-Carson-Test\src\1passfail.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+      </file>
+      <file name="2collection.js" path="C:\Users\carso\OneDrive\Documents\repos\ITM-350-Carson-Test\src\2collection.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+      </file>
+      <file name="3datadriven.js" path="C:\Users\carso\OneDrive\Documents\repos\ITM-350-Carson-Test\src\3datadriven.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+      </file>
+      <file name="4performance.js" path="C:\Users\carso\OneDrive\Documents\repos\ITM-350-Carson-Test\src\4performance.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+      </file>
+      <file name="5process.js" path="C:\Users\carso\OneDrive\Documents\repos\ITM-350-Carson-Test\src\5process.js">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+      </file>
+      <file name="6simulation.js" path="C:\Users\carso\OneDrive\Documents\repos\ITM-350-Carson-Test\src\6simulation.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+      </file>
+      <file name="7multi.js" path="C:\Users\carso\OneDrive\Documents\repos\ITM-350-Carson-Test\src\7multi.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+      </file>
+      <file name="8stress.js" path="C:\Users\carso\OneDrive\Documents\repos\ITM-350-Carson-Test\src\8stress.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="2" count="1000000" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+      </file>
+      <file name="isInteger.js" path="C:\Users\carso\OneDrive\Documents\repos\ITM-350-Carson-Test\src\isInteger.js">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="palindrome.js" path="C:\Users\carso\OneDrive\Documents\repos\ITM-350-Carson-Test\src\palindrome.js">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+      </file>
+    </package>
   </project>
 </coverage>

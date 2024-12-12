@@ -1,0 +1,32 @@
+name: Node.js CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '16'
+
+    - run: npm install
+
+    - run: npm test
+
+    - name: Upload coverage report
+      if: success()
+      run: |
+        mkdir -p coverage
+        mv coverage/* coverage/
+      continue-on-error: true
